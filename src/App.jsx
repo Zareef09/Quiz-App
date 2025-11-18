@@ -1,7 +1,7 @@
 import Header from './components/Header'
 import Quiz from './components/Quiz.jsx'
 
-function App() {
+export default function App() {
   return (
     <>
       <Header />
@@ -11,5 +11,3 @@ function App() {
     </>
   )
 }
-
-export default App
